@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Warning Fire! (Cadastros dos Estabelecimentos)</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <header>
+            <h1>Warning Fire!</h1>
+        </header>
+        <div id="comeBack">
+            <section class="buttons">
+                <a href="/" class="nao"><button>Voltar a página inicial</button></a>
+            </section>
+        </div>
+    </div>
+    <div id="contem">
+        <section id="centro">
+            <div class="assobre">
+                <h1>Cadastros dos Estabelecimentos</h1>
+                <h6>Esta tela tem a funcionalidade de cadastrar os estabelecimentos para as vistorias.</h6>
+                <form action="" method="get">
+                    <div class="caixa-de-texto">
+                        <label for="name">Nome do Responsável:</label>
+                        <input type="text" name="name">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="date">Data de Nascimento:</label>
+                        <input type="text" class="form-control date-mask" placeholder="Ex.: 00/00/0000">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="phone">Telefone:</label>
+                        <input type="text" class="form-control phone-ddd-mask" placeholder="Ex.: (00) 0000-0000">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="cel">Celular:</label>
+                        <input type="text" class="form-control cel-mask" placeholder="Ex.: (00) 00000-0000">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="CPF">CPF:</label>
+                        <input type="text" class="form-control cpf-mask" placeholder="Ex.: 000.000.000-00">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="RG">RG:</label>
+                        <input type="text" name="RG">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="CNPJ">CNPJ:</label>
+                        <input type="text" class="form-control cnpj-mask" placeholder="Ex.: 00.000.000/0000-00">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="image">Link da Imagem da Carteira de Identidade:</label>
+                        <input type="url" name="image">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="andress">Endereço do Responsável (c/n°):</label>
+                        <input type="text" name="andress">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="andress">Local do Estabelecimento:</label>
+                        <input type="text" name="andress">
+                    </div>
+                    <div class="caixa-de-texto">
+                        <label for="andress">Tipo da Empresa:</label>
+                        <div class="radio">
+                            <input type="radio" value="0" name="campo-radio" id="campo-radio1" />
+                            <label for="campo-radio1">Privada</label>
+                            <input type="radio" value="0" name="campo-radio" id="campo-radio2" />
+                            <label for="campo-radio2">Pública</label>
+                        </div>
+                    </div>
+                    <section class="buttons">
+                        <a href="/Confirmacao" class="nao"><button>Salvar</button></a>
+                    </section>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
